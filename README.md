@@ -3,7 +3,7 @@
 This database has been designed for a electronic store to facilitate the management of producers, products, orders, and customers. Each table has unique attributes to store essential information related to the electronic store.
 
 ## Tables
-##Table "Producers"
+## Table "Producers"
 Description: This table stores information about electronics producers who supply products to the store.
 ### Fields:
 id_producer: Unique identifier for the producer (primary key).
