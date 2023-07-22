@@ -1,4 +1,4 @@
-### Electronic Store Database 
+# Electronic Store Database 
 ## Description
 This database has been designed for a fashion store to facilitate the management of producers, products, orders, and customers. Each table has unique attributes to store essential information related to the fashion store.
 
@@ -6,7 +6,7 @@ This database has been designed for a fashion store to facilitate the management
 Table "Producers"
 Description: This table stores information about clothing producers who supply products to the store.
 
-# Fields:
+### Fields:
 
 id_producer: Unique identifier for the producer (primary key).
 producer_name: Name of the producer.
@@ -16,7 +16,7 @@ contract_signing_date: Date of signing the contract with the producer.
 ## Table "Products"
 Description: This table stores information about the available products in the store.
 
-# Fields:
+### Fields:
 
 id_product: Unique identifier for the product (primary key).
 id_producer: Foreign key that connects the product to the respective producer (linked to the "Producers" table).
@@ -30,7 +30,7 @@ VAT_percent: Percentage value of Value Added Tax (VAT) on the product.
 ## Table "Orders"
 Description: This table stores information about placed orders.
 
-# Fields:
+### Fields:
 
 id_order: Unique identifier for the order (primary key).
 id_customer: Foreign key that connects the order to the respective customer (linked to the "Customers" table).
@@ -39,7 +39,7 @@ order_date: Date of placing the order.
 ## Table "Customers"
 Description: This table stores information about the store's customers.
 
-# Fields:
+### Fields:
 
 id_customer: Unique identifier for the customer (primary key).
 id_order: Foreign key that connects the customer to the respective order (linked to the "Orders" table).
