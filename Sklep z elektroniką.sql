@@ -56,7 +56,7 @@ REFERENCES Klienci(id_klienta);
 
 -- Tworzymy czterech producentów wraz z informacjami zawartymi w tabelce Producenci
 INSERT INTO Producenci
-VALUE (1, 'Anna Nowak', 'Warszawa', '5213910689', '2015-02-23'),
+VALUES (1, 'Anna Nowak', 'Warszawa', '5213910689', '2015-02-23'),
 (2, 'Roman Kowalski', 'Kraków', '5213911212', '2016-02-25'),
 (3, 'Tomasz WIŚNIEWSKI', 'Poznań', '5213913333', '2017-05-03'),
 (4, 'Agata WÓJCIK', 'Gdańsk', '5213915556', '2018-06-20');
